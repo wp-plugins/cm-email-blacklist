@@ -48,7 +48,9 @@ Note: You must have a call to wp_head() in your template in order for the JS plu
 
 == Screenshots ==
 
-
+1. User interface of CM Email Blacklist Admin setting screen.
+2. User Blacklist UI
+3. Error message which appears on login screen once domain is in blacklist
 
 == Changelog ==
 
