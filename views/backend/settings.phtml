@@ -1,0 +1,30 @@
+<p class="clear">
+    <?php
+if (!empty($messages)):
+    foreach ($messages as $message):
+        ?><div class="updated"><p><?php echo $message; ?></p></div><?php
+    endforeach;
+endif;
+?>
+<form method="post">
+    <?php echo wp_nonce_field('cmeb_settings', '_nonce'); ?>
+    <h3>General Settings:</h3>
+    <table>
+        <tr valign="top">
+            <th scope="row" valign="middle" align="left" >Blacklists to use:</th>
+            <td >
+                <?php foreach ($availableValidators as $validator): ?>
+                    <input type="checkbox" name="enabledValidators[]" id="validator-<?php echo sanitize_title_with_dashes($validator); ?>" value="<?php echo esc_attr($validator); ?>" <?php if (in_array($validator, $enabledValidators)) echo ' checked="checked" '; ?>/>
+                    <label for="validator-<?php echo sanitize_title_with_dashes($validator); ?>"><?php echo $validatorNames[$validator]; ?></label><br />
+                <?php endforeach; ?>
+        </tr>
+        <tr valign="top">
+            <th scope="row" valign="middle" align="left" >Error message:</th>
+            <td >
+                    <input type="text" size="100" name="errorMessage" id="errorMessage" value="<?php echo esc_attr($errorMessage); ?>"/>
+                    
+        </tr>
+    </table>
+    <input type="submit" class="button" value="Update" />
+</form>
+</p>
