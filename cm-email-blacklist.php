@@ -5,7 +5,7 @@
   Plugin URI: http://www.cminds.com/plugins/email-blacklist
   Description: Block users from certain domains from registering in your blog
   Author: CreativeMinds
-  Version: 1.0
+  Version: 1.1
  */
 
 /*
