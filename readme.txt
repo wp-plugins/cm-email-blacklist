@@ -5,9 +5,9 @@ Donate link: http://www.cminds.com/plugins
 Tags: Blacklist, Whitelist, E-mail, email, registration, domain, DNSBL, spam, block, SpamAssassin, Spam
 Requires at least: 3.2
 Tested up to: 3.5
-Stable tag: 1.0
+Stable tag: 1.1
 
-Block users from blacklists domain from registering to your WordPress site.
+Block users using blacklists domain from registering to your WordPress site.
 
 == Description ==
 This plug will check if a user trying to register to your WordPress site is using an email from a domain which is defined in blacklists. 
@@ -41,6 +41,7 @@ You can find more information about CM Email Blacklist at [CreativeMinds Website
 3. Manage your CM Email Blacklist from Left Side Admin Menu
 
 Note: You must have a call to wp_head() in your template in order for the JS plugin files to work properly.  If your theme does not support this you will need to link to these files manually in your theme (not recommended).
+PHP Version:  Plugin uses a structure which was introduced only with PHP 5.3.0. So if the version of PHP is lower Plugin does not work
 
 == Frequently Asked Questions ==
 
@@ -53,6 +54,9 @@ Note: You must have a call to wp_head() in your template in order for the JS plu
 3. Error message which appears on login screen once domain is in blacklist.
 
 == Changelog ==
+= 1.1 =
+* Minor fix in styling
+* Added verification of PHP version
 
 = 1.0 =
 * Initial release

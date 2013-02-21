@@ -24,7 +24,9 @@
   along with this program; if not, write to the Free Software
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
-
+if (version_compare('5.3', phpversion(), '>')) {
+    die('We are sorry, but you need to have at least PHP 5.3 to run this plugin (currently installed version: '.phpversion().') - please upgrade or contact your system administrator.');
+}
 //Define constants
 define('CMEB_PATH', WP_PLUGIN_DIR . '/' . basename(dirname(__FILE__)));
 define('CMEB_URL', plugins_url('', __FILE__));
