@@ -33,6 +33,8 @@ You can find more information about CM Email Blacklist at [CreativeMinds Website
 
 * [CM Invitation Codes](http://wordpress.org/extend/plugins/cm-invitation-codes/) - Allows more control over site registration by adding managed groups of invitation codes. 
 
+* [CM Answers](http://wordpress.org/extend/plugins/cm-answers/) - Allow users to post questions and answers in stackoverflow style. 
+
 
 == Installation ==
 
