@@ -2,7 +2,7 @@
 Name: CM Email Blacklist
 Contributors: CreativeMinds (http://www.cminds.com/)
 Donate link: http://www.cminds.com/plugins
-Tags: Blacklist, Whitelist, E-mail, email, registration, domain, DNSBL, spam, block, SpamAssassin, Spam
+Tags: Blacklist,Whitelist,E-mail,email,registration,domain,DNSBL,spam,block,SpamAssassin,Spam,register,beta,login,antispam,defence,whitelist,comments,comment,blacklist,anti-spam,spammer,spambot,antispambot,guard,security,advanced user management,anti spam users,anti-splog,appthemes,black hat,blackhat,block,block agents,block bot,block bots,block domains,block e-mails,block emails,block ip,block splog,block unwanted users,block user,block users,blog secure,clean database,clean splog,clean users,ip,ip info,ip information,no captcha,plugin,protect,protect registration,recaptcha,register,registration,secure blog,secure wordpress,secure wp,security,security questions,sign up,signup,spam blog,spam blogs,splog,sploggers,standard WordPress,untrusted,untrusted users,unwanted users,user management,user registration spam,user spam,users registration,spam prevention,wangguard,website security,wp secure,wp security,wp-login.php,wp-register.php,wp-signup.php
 Requires at least: 3.2
 Tested up to: 3.5
 Stable tag: 1.1
@@ -10,15 +10,24 @@ Stable tag: 1.1
 Block users using blacklists domain from registering to your WordPress site.
 
 == Description ==
-This plug will check if a user trying to register to your WordPress site is using an email from a domain which is defined in blacklists. 
+This plugin will check if a user trying to register to your WordPress site is using an email from a domain which is defined in blacklists. 
 
-The plug use several method to detect is domain is in blacklists:
+**Use-Cases**
 
-Use a list of free email domains downloaded from SpamAssassin
+* Beta - Control users in your beta release.
+* Members Only - Restrict site registration from specific domains
+* Control - Control sites users domains
+* Spam - Prevent spam users from registration  
 
-Use [DNSBL online service](http://www.spamhaus.org/zen/)
 
-Use user defined own domain Bloacklist and whitelist
+**Features**
+
+* Allow registration only by invitation code
+* Use a list of free email domains downloaded from SpamAssassin
+* Use [DNSBL online service](http://www.spamhaus.org/zen/)
+* Use user defined own domain Bloacklist and whitelist
+* Admin can edit domain list
+* Admin can define which combination of the above methods to use
 
 **More About this Plugin**
 	
@@ -27,13 +36,11 @@ You can find more information about CM Email Blacklist at [CreativeMinds Website
 
 **More Plugins by CreativeMinds**
 
-* [CM Enhanced ToolTip Glossary](http://wordpress.org/extend/plugins/enhanced-tooltipglossary/) - Parses posts for defined glossary terms and adds links to the static glossary page containing the definition and a tooltip with the definition. 
-
-* [CM Multi MailChimp List Manager](http://wordpress.org/extend/plugins/multi-mailchimp-list-manager/) - Allows users to subscribe/unsubscribe from multiple MailChimp lists. 
-
+* [CM Super ToolTip Glossary](http://wordpress.org/extend/plugins/enhanced-tooltipglossary/) - Easily create Glossary, Encyclopedia or Dictionary of your terms and show tooltip in posts and pages while hovering. Many powerful features. 
+* [CM Download manager](http://wordpress.org/extend/plugins/cm-download-manager) - Allow users to upload, manage, track and support documents or files in a directory listing structure for others to use and comment.
+* [CM Answers](http://wordpress.org/extend/plugins/cm-answers/) - Allow users to post questions and answers (Q&A) in a stackoverflow style forum which is easy to use, customize and install. w Social integration.. 
 * [CM Invitation Codes](http://wordpress.org/extend/plugins/cm-invitation-codes/) - Allows more control over site registration by adding managed groups of invitation codes. 
-
-* [CM Answers](http://wordpress.org/extend/plugins/cm-answers/) - Allow users to post questions and answers in stackoverflow style. 
+* [CM Multi MailChimp List Manager](http://wordpress.org/extend/plugins/multi-mailchimp-list-manager/) - Allows users to subscribe/unsubscribe from multiple MailChimp lists. 
 
 
 == Installation ==
