@@ -1,11 +1,11 @@
 === Plugin Name ===
 Name: CM Email Blacklist
-Contributors: CreativeMinds (http://www.cminds.com/)
-Donate link: http://www.cminds.com/plugins
+Contributors: CreativeMinds (http://plugins.cminds.com/)
+Donate link: http://plugins.cminds.com/
 Tags: Blacklist,Whitelist,E-mail,email,registration,domain,DNSBL,spam,block,SpamAssassin,Spam,register,beta,login,antispam,defence,whitelist,comments,comment,blacklist,anti-spam,spammer,spambot,antispambot,guard,security,advanced user management,anti spam users,anti-splog,appthemes,black hat,blackhat,block,block agents,block bot,block bots,block domains,block e-mails,block emails,block ip,block splog,block unwanted users,block user,block users,blog secure,clean database,clean splog,clean users,ip,ip info,ip information,no captcha,plugin,protect,protect registration,recaptcha,register,registration,secure blog,secure wordpress,secure wp,security,security questions,sign up,signup,spam blog,spam blogs,splog,sploggers,standard WordPress,untrusted,untrusted users,unwanted users,user management,user registration spam,user spam,users registration,spam prevention,website security,wp secure,wp security,wp-login.php,wp-register.php,wp-signup.php
 Requires at least: 3.2
 Tested up to: 3.5
-Stable tag: 1.1
+Stable tag: 1.1.1
 
 Block users using blacklists domain from registering to your WordPress site.
 
@@ -31,7 +31,7 @@ This plugin will check if a user trying to register to your WordPress site is us
 
 **More About this Plugin**
 	
-You can find more information about CM Email Blacklist at [CreativeMinds Website](http://www.cminds.com/plugins/).
+You can find more information about CM Email Blacklist at [CreativeMinds Website](http://plugins.cminds.com/cm-email-blacklist/).
 
 
 **More Plugins by CreativeMinds**
@@ -63,6 +63,9 @@ PHP Version:  Plugin uses a structure which was introduced only with PHP 5.3.0. 
 3. Error message which appears on login screen once domain is in blacklist.
 
 == Changelog ==
+= 1.1.1 =
+* Update readme and plugin homepage
+
 = 1.1 =
 * Minor fix in styling
 * Added verification of PHP version

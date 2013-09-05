@@ -124,7 +124,7 @@ class CMEB_Validate implements CMEB_Interface {
             .cmeb_poweredby:before {content:'Powered by ';}
         </style>
         <!--// By leaving following snippet in the code, you're expressing your gratitude to creators of this plugin. Thank You! //-->
-        <span class="cmeb_poweredby"><a href="http://www.cminds.com/" target="_new">CreativeMinds WordPress Plugin</a> <a href="http://www.cminds.com/plugins/cm-email-blacklist/" target="_new">E-Mail Blacklist</a></span>
+        <span class="cmeb_poweredby"><a href="http://plugins.cminds.com/" target="_new">CreativeMinds WordPress Plugins</a> <a href="http://plugins.cminds.com/cm-email-blacklist/" target="_new">E-Mail Blacklist</a></span>
         <?php
 
     }
