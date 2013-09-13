@@ -1,6 +1,6 @@
 === Plugin Name ===
 Name: CM Email Blacklist
-Contributors: CreativeMinds (http://plugins.cminds.com/)
+Contributors: CreativeMindsSolutions
 Donate link: http://plugins.cminds.com/
 Tags: Blacklist,Whitelist,E-mail,email,registration,domain,DNSBL,spam,block,SpamAssassin,Spam,register,beta,login,antispam,defence,whitelist,comments,comment,blacklist,anti-spam,spammer,spambot,antispambot,guard,security,advanced user management,anti spam users,anti-splog,appthemes,black hat,blackhat,block,block agents,block bot,block bots,block domains,block e-mails,block emails,block ip,block splog,block unwanted users,block user,block users,blog secure,clean database,clean splog,clean users,ip,ip info,ip information,no captcha,plugin,protect,protect registration,recaptcha,register,registration,secure blog,secure wordpress,secure wp,security,security questions,sign up,signup,spam blog,spam blogs,splog,sploggers,standard WordPress,untrusted,untrusted users,unwanted users,user management,user registration spam,user spam,users registration,spam prevention,website security,wp secure,wp security,wp-login.php,wp-register.php,wp-signup.php
 Requires at least: 3.2

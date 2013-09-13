@@ -4,7 +4,7 @@
   Plugin Name: CM E-Mail Blacklist
   Plugin URI: http://plugins.cminds.com/cm-email-blacklist/
   Description: Block users from certain domains from registering in your blog
-  Author: CreativeMinds
+  Author: CreativeMindsSolutions
   Version: 1.1.1
  */
 
